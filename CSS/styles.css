@@ -1,29 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+
 .body{
     font-family: 'Roboto', sans-serif;
 }
 
-.status-bar{
+.welcome-header{
+    margin: 90px 0;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
-.status-bar__column{
-    width: 33%;
+.welcome-header__title{
+    margin-bottom: 20px;
+    font-size: 25px;
 }
-
-.status-bar__column:first-child{
-    margin-right: 5px;
-}
-
-.status-bar__column:nth-child(2){
-    display: flex;
-    justify-content: center;
-}
-.status-bar__column:last-child{
-    display: flex;
-    justify-content: flex-end;
-}
-.status-bar__column .fa-solid{
-    margin: 0px 5px;
+.welcome-header__text{
+    width: 40%;
+    opacity: 0.5;
 }
