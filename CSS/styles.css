@@ -34,14 +34,31 @@
     padding: 15px 0;
     font-size: 18px;
     margin-bottom: 25px;
+    transition: border-color 0.2s ease-in;
+}
+#login-form input:not([type="submit"]){
+/* input 태그 안에 있는 submit 의 border-bottom line 이 생겨서 해당 코드를 작성하게 되었다. */
     border-bottom: 1px solid rgba(0,0,0,0.2);
     transition: border-color 0.2s ease-in;
-
+/* input type="submit" 이 아닌 것에 해당 사항을 적용하라*/
 }
 #login-form input::placeholder{
     color: rgba(0,0,0,0.4);
 }
-
 #login-form input:focus{
     border-color: var(--select-yellow);
-} 
+}
+
+#login-form input[type="submit"]{
+    background-color: var(--select-yellow);
+    cursor: pointer;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
