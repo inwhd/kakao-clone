@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 .body{
     font-family: 'Roboto', sans-serif;
@@ -21,3 +22,26 @@
     width: 40%;
     opacity: 0.5;
 }
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input{
+    border: none;
+    padding: 15px 0;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.2s ease-in;
+
+}
+#login-form input::placeholder{
+    color: rgba(0,0,0,0.4);
+}
+
+#login-form input:focus{
+    border-color: var(--select-yellow);
+} 
