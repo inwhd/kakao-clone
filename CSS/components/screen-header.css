@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-between;
     padding: var(--horizontal-space);
+    margin-bottom: 15px;
 }
 .screen-header__title{
     font-size: 32px;
     font-weight: 600;
-    margin-left: 20px;
 }
 .screen-header__icons{
     display: flex;
