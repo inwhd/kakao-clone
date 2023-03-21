@@ -1,3 +1,7 @@
 :root{
     --select-yellow :  #f1e317;
 }
+
+:root{
+    --basic-gray : rgba(83, 83, 80, 1);
+}

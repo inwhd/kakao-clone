@@ -8,6 +8,9 @@
 @import "components/screen-header.css";
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
+
 .body{
+    color: #2e363e;
     font-family: 'Roboto', sans-serif;
 }
