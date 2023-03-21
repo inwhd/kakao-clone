@@ -41,6 +41,8 @@
 
 .open-post{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .open-post__title{
     font-weight: 600;
@@ -75,4 +77,28 @@
 }
 .open-post__member-status--pink{
     color: rgb(255, 109, 134);
+}
+.open-post__photo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.open-post__photo div{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+.open-post__photo span{
+    margin-left:3px ;
+}
+.open-post__photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
 }
