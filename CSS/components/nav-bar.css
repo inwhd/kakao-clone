@@ -14,4 +14,33 @@
 
 .nav__link{
     color: rgba(83, 83, 80, 1);
+    position: relative;
+}
+
+.nav__btn{
+    position: relative;
+}
+.nav__notification{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.nav__ellip-noti{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: tomato;
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
