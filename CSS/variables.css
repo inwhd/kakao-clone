@@ -1,7 +1,5 @@
 :root{
     --select-yellow :  #f1e317;
-}
-
-:root{
-    --basic-gray : rgba(83, 83, 80, 1);
+    --basic-gray : rgb(49, 49, 49);
+    --horizontal-space : 25px;
 }

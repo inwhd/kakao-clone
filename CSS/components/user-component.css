@@ -1,3 +1,6 @@
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+}
 .user-component,
 .user-component__column:first-child{
     display: flex;
@@ -16,4 +19,8 @@
 .user-component__subtitle{
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.7);
+}
+.user-component__avatar--xl{
+    width: 80px;
+    height: 80px;
 }
