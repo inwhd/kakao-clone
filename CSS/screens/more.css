@@ -11,3 +11,27 @@
 .more-suggestion__title{
     margin-bottom: 25px;
 }
+
+.more-suggestion__icons{
+    display: flex;
+    align-items: center;
+}
+.more-suggestion__icon{
+    margin: 0 30px;
+}
+.more-suggestion__icon-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 213, 8);
+    width:80px;
+    height: 80px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.more-suggestion__icon span{
+    color: var(--basic-gray);
+}
