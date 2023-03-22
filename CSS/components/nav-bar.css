@@ -20,10 +20,25 @@
 .nav__btn{
     position: relative;
 }
+
+
+@keyframes notificationAnimation {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: translateY(-5px) rotateY(360deg);
+    }
+    100% {
+      transform: none;
+    }
+  }
+
 .nav__notification{
     position: absolute;
     bottom: 20px;
     left: 20px;
+    animation: notificationAnimation 2s ease-in infinite;
 }
 .nav__ellip-noti{
     width: 15px;
@@ -35,4 +50,29 @@
     position: absolute;
     left: 20px;
     bottom: 20px;
+}
+
+@keyframes navBtnAnimation {
+    from{
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+.nav__btn{
+    animation: navBtnAnimation 0.3s ease forwards;
+}
+
+.nav__btn:nth-child(2){
+    animation: navBtnAnimation 0.6s ease forwards;
+}
+.nav__btn:nth-child(3){
+    animation: navBtnAnimation 0.9s ease forwards;
+
+}
+.nav__btn:last-child{
+    animation: navBtnAnimation 1.2s ease forwards;
 }
