@@ -47,5 +47,5 @@
     align-items: center;
     font-size: 130px ;
     animation: splash-screen 1s ease-in-out forwards;
-    animation-delay: 3s;
+    animation-delay: 0.5s;
 }
